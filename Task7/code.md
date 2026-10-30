@@ -16,7 +16,7 @@ Develop a Python program to process multiple products, calculate quantities and 
 8. Display itemized invoice.
 9. Stop.
 
-## 3. Flowchart (Mermaid)
+## 3. Flowchart
 ``` mermaid
 flowchart TD
  A([Start]) --> B[/Enter product details/]
