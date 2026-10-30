@@ -12,7 +12,6 @@ if min(consult, diagnostic, treatment, payment) < 0:
 else:
     total = consult + diagnostic + treatment
 
-    # Apply 10% concession for bills above Rs. 5000
     discount = total * 0.10 if total > 5000 else 0
 
     final = total - discount
